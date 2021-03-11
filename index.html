@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Search Algorithms</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
+    <script type="text/javascript" src="cell.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="banner">
+          <h1>Maze Creation</h1>
+      </div>
+      <div class="main">
+        <main>
+          <div class="tools">
+                <label>Choose the Size of the Maze:</label>
+                <input type="text" id="size" value="40">
+                <input type="submit" onclick="draw()">
+              <p>Makes the Maze using depth first Search</p>
+            </div>
+          </main>
+          <div class="searchTools">
+            <h2>Choose a search algorithm:</h2>
+            <p>convert to table</p>
+            <h4>Pathfinding:</h4>
+            <label>A* Search</label>
+            <input type="radio">
+            <br>
+            <label>Depth First</label>
+            <input type="radio">
+            <br>
+            <label>Dijkstra</label>
+            <input type="radio">
+            <br>
+            <label>Breadth First</label>
+            <input type="radio">
+          </div>
+        </div>
+  </body>
+</html>

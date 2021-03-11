@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  background-color: #CDCDCD;
+}
+canvas{
+  vertical-align: top;
+}
+main{
+    width: 50vw;
+    height: 70vh;
+    background-color: #A9A9A9;
+    display: inline-block;
+}
+.main{
+  width: 100vw;
+  height: 70vh;
+  background-color: #C0C0C0;
+  display: inline-block;
+}
+.canvas{
+  margin: 40px;
+  margin-top: 20px;
+}
+.searchTools{
+  float: right;
+  height: 70vh;
+  width: 50vw;
+}
+.banner{
+  background-color: #F5F5F5;
+  margin-top: 20px;
+  padding: 20px;
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.tools{
+  margin: 15px;
+}
